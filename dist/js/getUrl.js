@@ -1,0 +1,1 @@
+"use strict";define(function(){return function(n){var t=location.search,c=t.match(/[\?&](\w+)=([^\?&]+)/),r="";return c.map(function(t,e){c[e]==n&&(r=c[e+1])}),r}});
